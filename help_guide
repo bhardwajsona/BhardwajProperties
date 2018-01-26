@@ -1,0 +1,9 @@
+<?php
+$myfile=fopen("webdictionary.txt","a+") or die("Unable to open web dictionary");
+$txt="sona = sweet ornament noni accurate";
+fwrite($myfile,$txt);
+
+fclose($myfile);
+?>
+
+
